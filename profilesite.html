@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main, sort of.</title>
+    <style>
+body {
+    
+
+    }
+.headergif { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+marquee {
+    font-size: 20px;
+    color: #b40000;
+}
+.text {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+font-size: 40px;
+  outline: #630000 solid 10px;
+  background-color: #000000;
+  color: #b40000;
+}
+p {
+  font-size: 16px;
+}
+    
+@property --a{
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
+@property --p {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 0%;
+}
+@property --c1 {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #000;
+}
+@property --c2 {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #000;
+}
+
+html {
+  --s: 80px;
+  --_g: #0000, var(--c1) 2deg calc(var(--a) - 2deg),#0000 var(--a);
+  background: 
+    conic-gradient(from calc(-45deg  - var(--a)/2) at top    var(--p) left  var(--p),var(--_g)),
+    conic-gradient(from calc(-45deg  - var(--a)/2) at top    var(--p) left  var(--p),var(--_g)),
+    conic-gradient(from calc( 45deg  - var(--a)/2) at top    var(--p) right var(--p),var(--_g)),
+    conic-gradient(from calc( 45deg  - var(--a)/2) at top    var(--p) right var(--p),var(--_g)),
+    conic-gradient(from calc(-135deg - var(--a)/2) at bottom var(--p) left  var(--p),var(--_g)),
+    conic-gradient(from calc(-135deg - var(--a)/2) at bottom var(--p) left  var(--p),var(--_g)),
+    conic-gradient(from calc( 135deg - var(--a)/2) at bottom var(--p) right var(--p),var(--_g)),
+    conic-gradient(from calc( 135deg - var(--a)/2) at bottom var(--p) right var(--p),var(--_g))
+    var(--c2);
+  background-size: calc(2*var(--s)) calc(2*var(--s));
+  animation: m 2s infinite alternate linear;
+}
+
+@keyframes m {
+  0%,15% {
+    --a: 135deg;
+    --p: 20%;
+    --c1: #810101;
+    --c2: #050505;
+    background-position: 0 0,var(--s) var(--s);
+  }
+  45%,50% {
+    --a: 90deg;
+    --p: 25%;
+    --c1: #810101;
+    --c2: #050505;
+    background-position: 0 0,var(--s) var(--s);
+  }
+  50.01%,55% {
+    --a: 90deg;
+    --p: 25%;
+    --c2: #810101;
+    --c1: #050505;
+    background-position: var(--s) 0,0 var(--s);
+  }
+  85%,100% {
+    --a: 135deg;
+    --p: 20%;
+    --c2: #810101;
+    --c1: #050505;
+    background-position: var(--s) 0,0 var(--s);
+  }
+} 
+    </style>
+</head>
+<body>
+
+
+
+    <marquee>THE RADIO WILL PROVIDE MUSIC FOR THIS PAGE IF NOT ALREADY PLAYING</marquee>
+<img  class="headergif"  src="https://file.garden/YuYVNOgHkWVkfRda/website%20stuff/Untitled41_20250118202847.png">
+<a href=""> <img src=https://file.garden/YuYVNOgHkWVkfRda/website%20stuff/radioooo.gif> </a>
+<audio src="https://file.garden/YuYVNOgHkWVkfRda/ratnest/08%20Self%20Immolate.mp3" autoplay loop></audio>
+<h4 class="text">General Stuff to Know</h4>
+<p class="text">I'm Varcan or Lych33n,I use he/him. ALSO, I'm not the best at talking with others so it might take a moment for me to respond to anything (if in contact)</p>
+<h4 class="text">What do I do?</h4>
+<p class="text">I generally just play games since I don't really have the best of skills in anything whether it be my websites, drawings, or just my writing.</p>
+<h4 class="text">Is there any way to contact you?</h4>
+<p class="text">discord. (@lych33n).</p>
+<!--Who Am I exactly? I'm Varcan or Lych33n or Octave, while that is a lot of names, you only need to worry about the first one. Also there were more names but those are all parts of a version of me that is long since gone. thankfully. anyways besides the straight yapping about my names, Im just a guy with too many projects too ambitious for my own talents. I also do your average online teenager activities like: Drawing! Playing Games! I also have a few websites I'm working on, though those will likely go nowhere as I do not have a place for them TO go. theyre just kind of a limbo for my ideas. IF youre reading this site, theres a rather good chance youve come from the abtmtr server. or you got here through my profile. if i decide to put it there. i probably will. Those pictures at the top will lead you back to the main page. the radio will add music if it not already playing.-->
+</body>
+
+</html>
+
